@@ -1,6 +1,6 @@
-<ul>
-    <li><a href="<?= route('welcome')?>">Home</a></li>
-    <li><a href="<?= route('contact')?>">Contact</a></li>
-    <li><a href="<?= route('galery')?>">Galery</a></li>
-    <li><a href="<?= route('about')?>">about</a></li>
-</ul>
+@extends('layouts.app')
+@section('title','Home')
+@section('meta-description', 'Home meta description')
+@section('content')
+    <h1>Home</h1>
+@endsection
